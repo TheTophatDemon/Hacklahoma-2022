@@ -1,0 +1,11 @@
+{
+	"first name": "Papyrus",
+	"last name": "Undertale",
+	"personality": {
+		"openness": 0.6,
+		"conscientiousness": 0.8,
+		"agreeableness": 0.6,
+		"neuroticism": 0.2,
+		"extroversion": 0.7
+	}
+}

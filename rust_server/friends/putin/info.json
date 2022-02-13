@@ -1,0 +1,11 @@
+{
+	"first name": "Vladimir",
+	"last name": "Putin",
+	"personality": {
+		"openness": 0.3,
+		"conscientiousness": 0.7,
+		"agreeableness": 0.7,
+		"neuroticism": 0.5,
+		"extroversion": 0.7
+	}
+}

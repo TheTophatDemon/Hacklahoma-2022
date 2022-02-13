@@ -1,0 +1,11 @@
+{
+	"first name": "Sans",
+	"last name": "Undertale",
+	"personality": {
+		"openness": 0.4,
+		"conscientiousness": 0.1,
+		"agreeableness": 0.9,
+		"neuroticism": 0.8,
+		"extroversion": 0.6
+	}
+}
