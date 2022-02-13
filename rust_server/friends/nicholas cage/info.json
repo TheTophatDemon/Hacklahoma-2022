@@ -1,0 +1,11 @@
+{
+	"first name": "Nicholas",
+	"last name": "Cage",
+	"personality": {
+		"openness": 0.6,
+		"conscientiousness": 0.5,
+		"agreeableness": 0.3,
+		"neuroticism": 0.9,
+		"extroversion": 0.8
+	}
+}
