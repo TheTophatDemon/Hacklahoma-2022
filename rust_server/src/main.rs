@@ -5,6 +5,8 @@ use std::fs;
 use std::vec::Vec;
 
 mod friend; use friend::{Friend};
+mod personality;
+mod action;
 
 pub struct Context {
     friends: Vec<Friend>
@@ -37,7 +39,7 @@ fn route(context: &mut Context, request:String) -> Option<String> {
             "/friends" => {
                 let mut friends_list = String::new();
                 for friend in context.friends.iter() {
-                    friends_list.push_str(.as_str());
+                    friends_list.push_str(friend.as_html_table_row().as_str());
                 }
                 let contents = fs::read_to_string("templates/friends.html").unwrap()
                     .replace("{{FRIENDS}}", friends_list.as_str());

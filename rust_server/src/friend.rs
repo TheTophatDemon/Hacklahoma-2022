@@ -1,16 +1,7 @@
-use serde::{Deserialize};
+use crate::personality::{Personality};
 use crate::{Context};
 use std::fs;
 use std::io;
-
-#[derive(Deserialize)]
-pub struct Personality {
-    pub openness: f32,
-    pub conscientiousness: f32,
-    pub agreeableness: f32,
-    pub neuroticism: f32,
-    pub extroversion: f32
-}
 
 pub struct Friend {
     pub first_name: String,
